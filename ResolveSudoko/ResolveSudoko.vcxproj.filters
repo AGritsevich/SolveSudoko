@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{a837078e-194c-49d3-b67e-543a68cfad6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Logic\Checker.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\Custodian.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\Solver.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\defines.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Recognize.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="OverrideEdit.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ResolveSudoko.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ResolveSudokoDlg.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ResolveSudokoDlg.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="OverrideEdit.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ResolveSudoko.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\Checker.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\Custodian.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\Solver.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Recognize.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ResolveSudoko.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ResolveSudoko.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ResolveSudoko.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
